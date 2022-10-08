@@ -12,4 +12,9 @@ function mostrar(evento){
     localStorage.setItem('dadoDoUsuario', valor);
 };
 
+// Recuperar dados guardados
     document.querySelector('#mostrar').innerText = localStorage.getItem('dadoDoUsuario');
+
+//Apagar dados guardados
+
+localStorage.removeItem();
